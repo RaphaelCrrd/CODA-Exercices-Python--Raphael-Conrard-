@@ -100,6 +100,14 @@ def exercice21():
     else:
         print("Positif")
 
+def exercice22():
+    age = int(input("Entrez un age :"))
+    if age < 18:
+        print("Mineur")
+    else:
+        print("Majeur")
+
+
 
 # Demande à l'utilisateur quel exercice exécuter
 def main():
