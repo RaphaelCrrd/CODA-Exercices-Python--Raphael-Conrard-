@@ -74,6 +74,10 @@ def exercice16():
     cote = int(input("Entrez la longueur d'un côté :"))
     print("Aire =", cote**2)
 
+def exercice17():
+    valeur = int(input("Entrez une somme en € à convertir en $ (sans préciser la devise) :"))
+    print(valeur, "€ =", valeur*1.1, "$")
+
 
 # Demande à l'utilisateur quel exercice exécuter
 def main():
