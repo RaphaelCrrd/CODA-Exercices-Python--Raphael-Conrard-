@@ -59,6 +59,13 @@ def exercice13():
         i+=1
         print(i)
 
+def exercice14():
+    i = 0
+    for i in range(5):
+        i+=1
+        r = 2*i
+        print("2 x", i, "=", r)
+
 
 # Demande à l'utilisateur quel exercice exécuter
 def main():
