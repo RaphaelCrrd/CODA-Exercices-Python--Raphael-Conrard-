@@ -20,7 +20,12 @@ def exercice5():
     nombre1 = int(input("Entrez un premier nombre :"))
     nombre2 = int(input("Entrez un deuxième nombre :"))
     print(nombre1, " + ",nombre2, " = ", nombre1+nombre2 )
-    
+
+def exercice6():
+    nombre1 = int(input("Entrez un premier nombre :"))
+    nombre2 = int(input("Entrez un deuxième nombre :"))
+    print(nombre1, " - ",nombre2, " = ", nombre1-nombre2 )
+
 # Demande à l'utilisateur quel exercice exécuter
 def main():
     choix = input("Entrez le numéro de l'exercice à exécuter : ")
