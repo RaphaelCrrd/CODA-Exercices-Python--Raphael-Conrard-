@@ -53,6 +53,13 @@ def exercice12():
     message = (input("Entrez votre message : "))
     print((message + "\n")*5)
 
+def exercice13():
+    i = 0
+    for i in range(5):
+        i+=1
+        print(i)
+
+
 # Demande à l'utilisateur quel exercice exécuter
 def main():
     choix = input("Entrez le numéro de l'exercice à exécuter : ")
