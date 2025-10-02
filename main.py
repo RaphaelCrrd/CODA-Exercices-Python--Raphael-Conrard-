@@ -82,7 +82,9 @@ def exercice18():
     min = int(input("Entrez une durrée en minute :"))
     print(min, "minutes =", min*60, "secondes")
 
-
+def exercice19():
+    ht = int(input("Entrez le prix hors taxe :"))
+    print("Prix TTC = ", ht*1.20, "€")
 
 # Demande à l'utilisateur quel exercice exécuter
 def main():
