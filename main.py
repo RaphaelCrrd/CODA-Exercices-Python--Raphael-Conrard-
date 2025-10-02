@@ -137,6 +137,16 @@ def exercice26():
     else:
         print("Non divisible par 5")
 
+def exercice27():
+    age = int(input("Entrez un age :"))
+    if age < 12:
+        print("Enfant")
+    elif age >= 18:
+        print("Adulte")
+    else:
+        print("Adolescent")
+
+
 
 # Demande à l'utilisateur quel exercice exécuter
 def main():
