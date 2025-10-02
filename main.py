@@ -66,6 +66,12 @@ def exercice14():
         r = 2*i
         print("2 x", i, "=", r)
 
+def exercice15():
+    cote = int(input("Entrez la longueur d'un côté :"))
+    print("Aire =", cote**2)
+
+
+
 
 # Demande à l'utilisateur quel exercice exécuter
 def main():
