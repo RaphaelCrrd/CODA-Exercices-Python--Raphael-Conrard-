@@ -86,6 +86,13 @@ def exercice19():
     ht = int(input("Entrez le prix hors taxe :"))
     print("Prix TTC = ", ht*1.20, "€")
 
+def exercice20():
+    prenom = input("Entrez votre prénom :")
+    age = int(input("Entrez votre age :"))
+    print(prenom, "a", age, "ans")
+
+
+    
 # Demande à l'utilisateur quel exercice exécuter
 def main():
     choix = input("Entrez le numéro de l'exercice à exécuter : ")
