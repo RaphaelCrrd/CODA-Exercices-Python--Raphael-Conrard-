@@ -41,6 +41,9 @@ def exercice9():
     nombre2 = int(input("Entrez un deuxième nombre :"))
     print(nombre1, " puissance ",nombre2, " = ", nombre1**nombre2)
 
+def exercice10():
+    nombre = int(input("Entrez un nombre : "))
+    print("Le double de", nombre, "est", nombre*2)
 
 
 # Demande à l'utilisateur quel exercice exécuter
