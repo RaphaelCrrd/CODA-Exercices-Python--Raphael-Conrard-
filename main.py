@@ -122,7 +122,13 @@ def exercice24():
     else:
         print(n2, "est plus grand")
 
-
+def exercice25():
+    n1 = int(input("Entrez un premier nombre :"))
+    n2 = int(input("Entrez un deuxième nombre :"))
+    if n1 > n2:
+        print("Ordre croissant : NON")
+    else:
+        print("Ordre croissant : OUI")
 
 # Demande à l'utilisateur quel exercice exécuter
 def main():
