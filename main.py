@@ -46,9 +46,12 @@ def exercice10():
     print("Le double de", nombre, "est", nombre*2)
 
 def exercice11():
+    nombre = int(input("Entrez un nombre : "))
+    print("La moitié de", nombre, "est", nombre/2)
+
+def exercice12():
     message = (input("Entrez votre message : "))
     print((message + "\n")*5)
-
 
 # Demande à l'utilisateur quel exercice exécuter
 def main():
