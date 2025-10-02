@@ -68,9 +68,11 @@ def exercice14():
 
 def exercice15():
     cote = int(input("Entrez la longueur d'un côté :"))
+    print("Périmètre =", cote*4)
+
+def exercice16():
+    cote = int(input("Entrez la longueur d'un côté :"))
     print("Aire =", cote**2)
-
-
 
 
 # Demande à l'utilisateur quel exercice exécuter
