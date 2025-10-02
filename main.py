@@ -11,6 +11,10 @@ def exercice2():
 def exercice3():
     print(" Première ligne \nDeuxieme ligne \nTroisieme ligne")
 
+def exercice4(): 
+    annee_naissance = int(input("Entrez votre année de naissance : "))
+    age = 2025 - annee_naissance
+    print("Vous avez environ", age, "ans")
 
 # Demande à l'utilisateur quel exercice exécuter
 def main():
@@ -21,6 +25,23 @@ def main():
         exercice2()
     elif choix == "3":
         exercice3()
+    elif choix == "4":
+        exercice4()
+    elif choix == "5":
+        exercice5()
+    elif choix == "6":
+        exercice6()
+    elif choix == "7":
+        exercice7()
+    elif choix == "8":
+        exercice8()
+    elif choix == "9":
+        exercice9()
+    elif choix == "10":
+        exercice10()
+    elif choix == "11":
+        exercice11()
+    
     
     else:
         print("Exercice non reconnu.")
