@@ -78,6 +78,11 @@ def exercice17():
     valeur = int(input("Entrez une somme en € à convertir en $ (sans préciser la devise) :"))
     print(valeur, "€ =", valeur*1.1, "$")
 
+def exercice18():
+    min = int(input("Entrez une durrée en minute :"))
+    print(min, "minutes =", min*60, "secondes")
+
+
 
 # Demande à l'utilisateur quel exercice exécuter
 def main():
