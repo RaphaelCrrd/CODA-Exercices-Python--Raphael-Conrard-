@@ -107,6 +107,21 @@ def exercice22():
     else:
         print("Majeur")
 
+def exercice23():
+    note = int(input("Entrez une note :"))
+    if note < 10:
+        print("Non validé")
+    else:
+        print("Validé")
+
+def exercice24():
+    n1 = int(input("Entrez un premier nombre :"))
+    n2 = int(input("Entrez un deuxième nombre :"))
+    if n1 > n2:
+        print(n1, "est plus grand")
+    else:
+        print(n2, "est plus grand")
+
 
 
 # Demande à l'utilisateur quel exercice exécuter
