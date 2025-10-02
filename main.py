@@ -8,6 +8,10 @@ def exercice2():
     prenom = input("Entrez votre prénom : ")
     print("Bonjour " + prenom)
 
+def exercice3():
+    print(" Première ligne \nDeuxieme ligne \nTroisieme ligne")
+
+
 # Demande à l'utilisateur quel exercice exécuter
 def main():
     choix = input("Entrez le numéro de l'exercice à exécuter : ")
