@@ -45,6 +45,10 @@ def exercice10():
     nombre = int(input("Entrez un nombre : "))
     print("Le double de", nombre, "est", nombre*2)
 
+def exercice11():
+    message = (input("Entrez votre message : "))
+    print((message + "\n")*5)
+
 
 # Demande à l'utilisateur quel exercice exécuter
 def main():
@@ -71,7 +75,25 @@ def main():
         exercice10()
     elif choix == "11":
         exercice11()
-    
+    elif choix == "12":
+        exercice12()
+    elif choix == "13":
+        exercice13()
+    elif choix == "14":
+        exercice14()
+    elif choix == "15":
+        exercice15()
+    elif choix == "16":
+        exercice16()
+    elif choix == "17":
+        exercice17()
+    elif choix == "18":
+        exercice18()
+    elif choix == "19":
+        exercice19()
+    elif choix == "20":
+        exercice20()
+
     
     else:
         print("Exercice non reconnu.")
