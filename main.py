@@ -130,6 +130,14 @@ def exercice25():
     else:
         print("Ordre croissant : OUI")
 
+def exercice26():
+    nombre = int(input("Entrez un nombre :"))
+    if nombre%5 == 0:
+        print("Divisible par 5")
+    else:
+        print("Non divisible par 5")
+
+
 # Demande à l'utilisateur quel exercice exécuter
 def main():
     choix = input("Entrez le numéro de l'exercice à exécuter : ")
