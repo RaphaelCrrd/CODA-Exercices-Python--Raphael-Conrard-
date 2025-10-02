@@ -91,8 +91,16 @@ def exercice20():
     age = int(input("Entrez votre age :"))
     print(prenom, "a", age, "ans")
 
+def exercice21():
+    nombre = int(input("Entrez un nombre "))
+    if nombre < 0:
+        print("Négatif")
+    elif nombre == 0:
+        print("Nul")
+    else:
+        print("Positif")
 
-    
+
 # Demande à l'utilisateur quel exercice exécuter
 def main():
     choix = input("Entrez le numéro de l'exercice à exécuter : ")
@@ -136,8 +144,166 @@ def main():
         exercice19()
     elif choix == "20":
         exercice20()
-
-    
+    if choix == "21":
+        exercice21()
+    elif choix == "22":
+        exercice22()
+    elif choix == "23":
+        exercice23()
+    elif choix == "24":
+        exercice24()
+    elif choix == "25":
+        exercice25()
+    elif choix == "26":
+        exercice26()
+    elif choix == "27":
+        exercice27()
+    elif choix == "28":
+        exercice28()
+    elif choix == "29":
+        exercice29()
+    elif choix == "30":
+        exercice30()
+    elif choix == "31":
+        exercice31()
+    elif choix == "32":
+        exercice32()
+    elif choix == "33":
+        exercice33()
+    elif choix == "34":
+        exercice34()
+    elif choix == "35":
+        exercice35()
+    elif choix == "36":
+        exercice36()
+    elif choix == "37":
+        exercice37()
+    elif choix == "38":
+        exercice38()
+    elif choix == "39":
+        exercice39()
+    elif choix == "40":
+        exercice40()
+    elif choix == "41":
+        exercice41()
+    elif choix == "42":
+        exercice42()
+    elif choix == "43":
+        exercice43()
+    elif choix == "44":
+        exercice44()
+    elif choix == "45":
+        exercice45()
+    elif choix == "46":
+        exercice46()
+    elif choix == "47":
+        exercice47()
+    elif choix == "48":
+        exercice48()
+    elif choix == "49":
+        exercice49()
+    elif choix == "50":
+        exercice50()
+    elif choix == "51":
+        exercice51()
+    elif choix == "52":
+        exercice52()
+    elif choix == "53":
+        exercice53()
+    elif choix == "54":
+        exercice54()
+    elif choix == "55":
+        exercice55()
+    elif choix == "56":
+        exercice56()
+    elif choix == "57":
+        exercice57()
+    elif choix == "58":
+        exercice58()
+    elif choix == "59":
+        exercice59()
+    elif choix == "60":
+        exercice60()
+    elif choix == "61":
+        exercice61()
+    elif choix == "62":
+        exercice62()
+    elif choix == "63":
+        exercice63()
+    elif choix == "64":
+        exercice64()
+    elif choix == "65":
+        exercice65()
+    elif choix == "66":
+        exercice66()
+    elif choix == "67":
+        exercice67()
+    elif choix == "68":
+        exercice68()
+    elif choix == "69":
+        exercice69()
+    elif choix == "70":
+        exercice70()
+    elif choix == "71":
+        exercice71()
+    elif choix == "72":
+        exercice72()
+    elif choix == "73":
+        exercice73()
+    elif choix == "74":
+        exercice74()
+    elif choix == "75":
+        exercice75()
+    elif choix == "76":
+        exercice76()
+    elif choix == "77":
+        exercice77()
+    elif choix == "78":
+        exercice78()
+    elif choix == "79":
+        exercice79()
+    elif choix == "80":
+        exercice80()
+    elif choix == "81":
+        exercice81()
+    elif choix == "82":
+        exercice82()
+    elif choix == "83":
+        exercice83()
+    elif choix == "84":
+        exercice84()
+    elif choix == "85":
+        exercice85()
+    elif choix == "86":
+        exercice86()
+    elif choix == "87":
+        exercice87()
+    elif choix == "88":
+        exercice88()
+    elif choix == "89":
+        exercice89()
+    elif choix == "90":
+        exercice90()
+    elif choix == "91":
+        exercice91()
+    elif choix == "92":
+        exercice92()
+    elif choix == "93":
+        exercice93()
+    elif choix == "94":
+        exercice94()
+    elif choix == "95":
+        exercice95()
+    elif choix == "96":
+        exercice96()
+    elif choix == "97":
+        exercice97()
+    elif choix == "98":
+        exercice98()
+    elif choix == "99":
+        exercice99()
+    elif choix == "100":
+        exercice100()    
     else:
         print("Exercice non reconnu.")
 
