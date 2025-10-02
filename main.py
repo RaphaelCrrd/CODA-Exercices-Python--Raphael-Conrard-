@@ -19,18 +19,22 @@ def exercice4():
 def exercice5():
     nombre1 = int(input("Entrez un premier nombre :"))
     nombre2 = int(input("Entrez un deuxième nombre :"))
-    print(nombre1, " + ",nombre2, " = ", nombre1+nombre2 )
+    print(nombre1, " + ",nombre2, " = ", nombre1+nombre2)
 
 def exercice6():
     nombre1 = int(input("Entrez un premier nombre :"))
     nombre2 = int(input("Entrez un deuxième nombre :"))
-    print(nombre1, " - ",nombre2, " = ", nombre1-nombre2 )
+    print(nombre1, " - ",nombre2, " = ", nombre1-nombre2)
 
 def exercice7():
     nombre1 = int(input("Entrez un premier nombre :"))
     nombre2 = int(input("Entrez un deuxième nombre :"))
-    print(nombre1, " x ",nombre2, " = ", nombre1*nombre2 )
+    print(nombre1, " x ",nombre2, " = ", nombre1*nombre2)
 
+def exercice8():
+    nombre1 = int(input("Entrez un premier nombre :"))
+    nombre2 = int(input("Entrez un deuxième nombre :"))
+    print(nombre1, " ÷ ",nombre2, " = ", nombre1/nombre2)    
 
 # Demande à l'utilisateur quel exercice exécuter
 def main():
