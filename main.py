@@ -197,6 +197,18 @@ def exercice34():
         if i%2 == 0:
             print(i)
 
+def exercice35():
+    N = int(input("Entrez une valeur :"))
+    Liste = []
+    for i in range(1, N):
+        Liste.append(i)
+    for i in range(1, N):
+        if i**2 in Liste:
+            print(i**2)
+
+
+
+
 # Demande à l'utilisateur quel exercice exécuter
 def main():
     choix = input("Entrez le numéro de l'exercice à exécuter : ")
