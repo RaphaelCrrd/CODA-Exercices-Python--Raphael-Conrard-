@@ -180,7 +180,12 @@ def exercice31():
         Depart -= 1
         print(Depart)
 
-
+def exercice32():
+    N = int(input("Entrez une valeur"))
+    S = 0
+    for i in range(N):
+        S += N
+    print(S)
 
 
 
