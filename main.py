@@ -166,6 +166,13 @@ def exercice29():
     else:
         print("Très bien")
 
+def exercice30():
+    Limite = int(input("Entrez une valeur :"))
+    i = 0
+    for i in range(Limite):
+        i += 1
+        print(i)
+
 
 
 
