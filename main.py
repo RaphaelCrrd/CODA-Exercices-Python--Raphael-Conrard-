@@ -206,6 +206,11 @@ def exercice35():
         if i**2 in Liste:
             print(i**2)
 
+def exercice36():
+    mot = input("Entrez un mot :")
+    nombre = int(input("Choisissez combien de fois l'afficher :"))
+    for i in range (nombre):
+        print(mot)
 
 
 
