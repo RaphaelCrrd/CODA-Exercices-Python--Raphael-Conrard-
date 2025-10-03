@@ -173,6 +173,12 @@ def exercice30():
         i += 1
         print(i)
 
+def exercice31():
+    Depart = int(input("Entrez la valeur de départ :"))
+    Depart += 1
+    for i in reversed(range(Depart)):
+        Depart -= 1
+        print(Depart)
 
 
 
