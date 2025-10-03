@@ -155,6 +155,18 @@ def exercice28():
     else:
         print("Liquide")
 
+def exercice29():
+    Note = int(input("Entrez une note :"))
+    if Note < 10:
+        print("Recalé")
+    elif Note >= 10 and Note < 12:
+        print("Passable")
+    elif Note >= 12 and Note < 16:
+        print("Bien")
+    else:
+        print("Très bien")
+
+
 
 
 
