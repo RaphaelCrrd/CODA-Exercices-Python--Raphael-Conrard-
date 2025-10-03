@@ -181,11 +181,15 @@ def exercice31():
         print(Depart)
 
 def exercice32():
-    N = int(input("Entrez une valeur"))
+    N = int(input("Entrez une valeur :"))
     S = 0
     for i in range(N):
         S += N
     print(S)
+
+def exercice33():
+    N = int(input("Entrez un nombre :"))
+    print(N, "x 1 =", N*1, " , ", N, "x 2 =", N*2, " , ", N, "x 3 =", N*3, " , ", N, "x 4 =", N*4, " , ", N, "x 5 =", N*5, " , ", N, "x 6 =", N*6, " , ", N, "x 7 =", N*7, " , ", N, "x 8 =", N*8, " , ", N, "x 9 =", N*9, " , ", N, "x 10 =", N*10,)
 
 
 
