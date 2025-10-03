@@ -217,6 +217,22 @@ def exercice37():
     for i in range(1, n+1):
         print(" " * (n - i) + "*" * (2*i - 1))
 
+def exercice38():
+    N1 = int(input("Choisissez un premier nombre :"))
+    choix = input("Choisissez une opperation parmis Addition, Soustraction, Multiplication et Division :")
+    N2 = int(input("Choisissez un deuxieme nombre :"))
+    
+    if choix == "Addition":
+        print(N1, "+", N2, "=", N1+N2)
+    elif choix == "Soustraction":
+        print(N1, "-", N2, "=", N1-N2)
+    elif choix == "Multiplication":
+        print(N1, "x", N2, "=", N1*N2)
+    elif choix == "Division":
+        print(N1, "÷", N2, "=", N1/N2)
+    else:
+        print("Vérifiez l'ortographe.")
+
 
 
 
