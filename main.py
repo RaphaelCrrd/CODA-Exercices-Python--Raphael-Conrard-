@@ -146,6 +146,17 @@ def exercice27():
     else:
         print("Adolescent")
 
+def exercice28():
+    Température = int(input("Entrez une température :"))
+    if Température < 0:
+        print("Glace")
+    elif Température >= 100:
+        print("Vapeur")
+    else:
+        print("Liquide")
+
+
+
 
 
 # Demande à l'utilisateur quel exercice exécuter
