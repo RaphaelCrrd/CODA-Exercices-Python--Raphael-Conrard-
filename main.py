@@ -212,6 +212,12 @@ def exercice36():
     for i in range (nombre):
         print(mot)
 
+def exercice37():
+    n = int(input("Quelle hauteur souhaitez vous ? :"))
+    for i in range(1, n+1):
+        print(" " * (n - i) + "*" * (2*i - 1))
+
+
 
 
 # Demande à l'utilisateur quel exercice exécuter
